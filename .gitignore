@@ -1,0 +1,34 @@
+# Build artifacts
+build/
+cmake-build-*/
+*.exe
+*.out
+*.o
+*.obj
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Data files (will be generated later)
+data/*.log
+data/*.snap
+*.db
+
+# Test results
+Testing/
+CTestTestfile.cmake
+
+# OS
+.DS_Store
+Thumbs.db
